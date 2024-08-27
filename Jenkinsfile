@@ -8,7 +8,7 @@ pipeline {
     }
     stage('hello') {
       steps {
-        python -c "import hello; myscript.my_function()"
+        sh 'python3 hello.py'
       }
     }
   }
