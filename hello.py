@@ -1,8 +1,6 @@
-print('Hello World')
-
-# myscript.py
+# hello.py
 def my_function():
-    print("Hello, world!")
+    print("Hello, world! Testing")
     # Your function code here
     pass
 
